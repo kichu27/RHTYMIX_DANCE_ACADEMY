@@ -1,0 +1,125 @@
+/* YourComponent.module.css */
+
+.subdiv{
+
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(141,151,215,1) 100%);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+justify-content: center;
+align-items: center;
+gap: 40px ;
+height: 200vh ;
+border-radius: 35px;
+margin-top: 30px;
+}
+
+.coursecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5; /* Belgian White */
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    height: 480px;
+    width: 200px;
+    box-shadow: 10px 10px 10px 10px radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(141,151,215,1) 100%)  ;
+  }
+  
+  .coursecard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cardimage {
+    width: 100px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%; /* Curved edges */
+    margin-bottom: 10px;
+    background-color: white; /* Crystal glass effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.p{
+margin-top: 30px;
+height:60px ;
+border-style: solid ;
+border-color: black;
+border-radius: 25px;
+border-width: 2px;
+
+
+}
+
+  .courseimage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .coursedetails {
+    text-align: center;
+  }
+
+  .courseschedule{
+
+
+font-weight: bolder;
+
+  }
+  
+  /* Additional styles for the text classes */
+  
+
+
+  /* YourComponent.module.css */
+
+.instructorInfo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.instructorInfo:hover {
+  transform: translateY(-3px);
+}
+
+.instructorImage {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.instructorImage img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.instructorDetails {
+  flex-grow: 1;
+}
+
+.instructorName {
+  margin: 0;
+  font-size: 18px;
+}
+
+.instructorExperience {
+  margin: 5px 0;
+  font-size: 14px;
+}
