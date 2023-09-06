@@ -10,6 +10,7 @@ const mulish = Mulish({
 })
 
 
+
 const ContactForm = () => {
     // const[user, setUser] = useState({
     //     username:"",
@@ -20,10 +21,12 @@ const ContactForm = () => {
     // const [status, setStatus] = useState(null);
     
     const [formData, setFormData] = useState({
+
         name: "",
         email: "",
         number: "",
         message: "",
+
       });
 
 
