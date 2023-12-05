@@ -9,7 +9,7 @@ export default function CoursesPage() {
 {
 dc.map((item)=>{
     
-return <CourseCard key={id} title={item.title} description={item.description} instructor={item.instructor} prices={item.prices} imageUrl={item.imageUrl}  />
+return <CourseCard key={item.id} title={item.title} description={item.description} instructor={item.instructor} prices={item.prices} imageUrl={item.imageUrl}  />
 
 })
 
