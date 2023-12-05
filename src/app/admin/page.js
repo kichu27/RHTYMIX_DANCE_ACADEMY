@@ -3,7 +3,7 @@ import styles from "@/app/styles/common.module.css"
 import { useState , useEffect } from "react";
 import Link from "next/link";
 
-export default function page() {
+export default function Page() {
 
 const [datarespons , setdatarespons] = useState([])
 useEffect (()=>{
