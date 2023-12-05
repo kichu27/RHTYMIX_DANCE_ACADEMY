@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "@/app/styles/common.module.css"
 
-export default function writeablogPage() {
+export default function WriteablogPage() {
   const [formData, setFormData] = useState({
     title: "",
     content: "",
