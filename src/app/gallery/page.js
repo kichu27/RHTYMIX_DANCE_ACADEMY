@@ -12,7 +12,7 @@ export default  function GalleryPage() {
 
 posts.map((post)=>{
 
-return <Postcard imageurl={post.imageUrl} id={post.id} date={post.date} content={post.content} />
+return <Postcard key={id} imageurl={post.imageUrl} id={post.id} date={post.date} content={post.content} />
 
 })
 
